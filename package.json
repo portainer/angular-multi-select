@@ -25,9 +25,10 @@
     "url": "https://github.com/isteven/angular-multi-select/issues"
   },
   "homepage": "https://github.com/isteven/angular-multi-select",
-  "dependencies": {},
+  "dependencies": {
+  },
   "peerDependencies": {
-    "angular-sanitize": "1.6.1",
+    "angular-sanitize": "^1.8.2",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
