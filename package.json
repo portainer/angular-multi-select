@@ -25,18 +25,19 @@
     "url": "https://github.com/isteven/angular-multi-select/issues"
   },
   "homepage": "https://github.com/isteven/angular-multi-select",
-  "dependencies": {
-    "angular-mocks": "1.6.1",
+  "dependencies": {},
+  "peerDependencies": {
     "angular-sanitize": "1.6.1",
-    "lodash-es": "^4.17.15"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "angular-mocks": "1.6.1",
     "eslint": "^6.5.1",
-    "jasmine": "^2.8.0",
-    "karma": "^0.13.22",
     "http-server": "^0.10.0",
     "jasmin": "0.0.2",
+    "jasmine": "^2.8.0",
     "jasmine-core": "^2.2.0",
+    "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.0",
     "karma-cli": "^1.0.1",
     "karma-coverage": "^0.5.0",

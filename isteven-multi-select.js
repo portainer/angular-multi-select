@@ -33,7 +33,7 @@
 
 "use strict";
 
-import _ from 'lodash-es';
+import _has from 'lodash/has';
 
 angular
   .module("isteven-multi-select", ["ng"])
@@ -726,7 +726,7 @@ angular
 
             angular.forEach(temp, function(value) {
               label += "&nbsp";
-              label += _.has(item, value) ? value.split(".").reduce((prev, current) => prev[current], item) : value;
+              label += _has(item, value) ? value.split(".").reduce((prev, current) => prev[current], item) : value;
             });
 
             if (type.toUpperCase() === "BUTTONLABEL") {
